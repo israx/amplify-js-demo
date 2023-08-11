@@ -4,9 +4,9 @@ import { Amplify } from "aws-amplify";
 
 Amplify.configure({
   Auth: {
-    userPoolId: "us-east-1_XHEu73dGC",
-    userPoolWebClientId: "5nu3deigqhvajo0faq2u15frs1",
-    identityPoolId: "us-east-1:27cc9d31-91f1-4d90-a787-50ce57fb89a5",
+    userPoolId: "your_user_pool_id",
+    userPoolWebClientId: "your_user_pool_web_client_id",
+    identityPoolId: "your_optional_identity_pool_id",
   },
 });
 
